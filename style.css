@@ -1,25 +1,67 @@
-body {
-    background-color: lightblue;
-    text-align: center;
-    font-family: Arial;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
-    color: blue;
+body {
+    background: #050b1a;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(90deg, #001f4d, #0066ff);
+    padding: 50px;
+}
+
+header h1 {
+    font-size: 45px;
+    color: #00d9ff;
+}
+
+header p {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.about, .skills {
+    background: #101d35;
+    margin: 30px auto;
+    padding: 35px;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #0066ff;
 }
 
 h2 {
-    color: darkblue;
+    color: #00d9ff;
+    margin-bottom: 20px;
 }
 
-p {
-    font-size: 22px;
+.about p {
+    margin: 12px;
+    font-size: 18px;
 }
 
-button {
-    background-color: blue;
-    color: white;
-    padding: 12px 25px;
-    border: none;
+.skill {
+    display: inline-block;
+    background: #0066ff;
+    padding: 15px 25px;
+    margin: 10px;
     border-radius: 10px;
+    font-weight: bold;
+}
+
+.skill:hover {
+    background: #00d9ff;
+    color: black;
+}
+
+footer {
+    background: #00112b;
+    padding: 25px;
+    margin-top: 40px;
 }
